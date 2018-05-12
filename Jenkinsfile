@@ -8,7 +8,7 @@ node('linux') {
     
     stage('GetInstances') {
         sh "aws ec2 describe-instances --region us-east-1"
-        sh "echo ni hao ma"
+        sh "hello world"
     }
     
     stage('CreateInstance') {
